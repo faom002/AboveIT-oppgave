@@ -32,11 +32,7 @@ Legg til abonnementer ved hjelp av Mobiloperator.registerSubscription().
 
 Registrer kunder med Mobiloperatør.registerCustomer(). Knytt kunder til abonnementer ved hjelp av abonnementets ID.
 
-Oppdater dataforbruket for kundene ved å bruke Kunde.oppdaterDataforbruk() i løpet av måneden.
-
-Ved slutten av måneden kan du generere fakturaer med Mobiloperatør.beregnOgSendFaktura(). Dette vil også nullstille dataforbruket for alle kunder.
-
-Du kan slette kunder og abonnementer med Mobiloperatør.slettKunde() og Mobiloperatør.slettAbonnement(). Husk at når et abonnement slettes, vil alle kunder som bruker det, også slettes.
+Du kan slette kunder og abonnementer med Mobiloperator.deleteCustomer() og Mobiloperatør.deleteCustomer(). Husk at når et abonnement slettes, vil alle kunder som bruker det, også slettes.
 
 Eksempel
 Her er et eksempel på hvordan du kan bruke Mobiloperatør-applikasjonen:
