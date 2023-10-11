@@ -57,7 +57,8 @@ public class Main {
     }
 }
 
-#TESTET
+#Testing av kode
+
 du vil finne test klassen hvor jeg tester mobiloperator klassen og subscription klassen junit testing ble brukt dette ble noe veldig simpelt testing
 
 
