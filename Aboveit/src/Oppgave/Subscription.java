@@ -17,7 +17,7 @@ public class Subscription {
         this.includedGB = includedGB;
     }
 
-    // Getters and setters for other fields
+   
 
     public int getId() {
         return id;
