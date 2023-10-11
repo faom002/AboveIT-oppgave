@@ -28,9 +28,9 @@ Nullstill dataforbruk for alle kunder.
 Hvordan bruke
 Start Java-programmet ved å kjøre Main.java.
 
-Legg til abonnementer ved hjelp av Mobiloperatør.registrerAbonnement().
+Legg til abonnementer ved hjelp av Mobiloperator.registerSubscription().
 
-Registrer kunder med Mobiloperatør.registrerKunde(). Knytt kunder til abonnementer ved hjelp av abonnementets ID.
+Registrer kunder med Mobiloperatør.registerCustomer(). Knytt kunder til abonnementer ved hjelp av abonnementets ID.
 
 Oppdater dataforbruket for kundene ved å bruke Kunde.oppdaterDataforbruk() i løpet av måneden.
 
@@ -45,7 +45,7 @@ java
 Copy code
 public class Main {
     public static void main(String[] args) {
-        Mobiloperatør mobiloperatør = new Mobiloperatør();
+        MobileOperator mobilOperator = new MobileOperator();
 
         // Opprett abonnementer og kunder
 
@@ -56,6 +56,9 @@ public class Main {
         // Slett kunder og abonnementer ved behov
     }
 }
+
+#TESTET
+du vil finne test klassen hvor jeg tester mobiloperator klassen og subscription klassen junit testing ble brukt dette ble noe veldig simpelt testing
 
 
 ps jeg rakk ikke å gjøre de to siste oppgavene etter at jeg ikke fikk nok tid til det men jeg prøvde mitt beste
